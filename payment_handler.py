@@ -13,7 +13,7 @@ def process_payment(amount, currency):
     print(f"Using API key: {IDWALL_API_KEY}")
 
     # In a real scenario, this would call a payment API.
-    # Example: api_client.process(amount, currency, STRIPE_API_KEY)
+    # Example: api_client.process(amount, currency, IDWALL_API_KEY)
     
     print("Payment processed successfully!")
 
